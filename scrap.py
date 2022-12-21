@@ -54,10 +54,13 @@ tabla = [msj1 + msj2 + msj3 + msj4 + msj5]
 
 table = " ".join(tabla)
 
+#Intente colocarle la fecha al archivo
+'''
 now = datetime.now()
 date = now.strftime("%m/%d/ %H:%M:%S")
+'''
 
-#crea el archivo precios, si ya hay uno, lo sobreescribe 
+#crea el archivo precios, si ya hay uno lo sobreescribe 
 file = open("precios.txt" ,"w")
 
 file.write(table)
@@ -68,7 +71,12 @@ file.close()
 #cierra la web
 driver.quit() 
 
-
-
+'''
+1) estudiate esto y create el repo.
+2) subi lo que tengas hecho de flask
+3) estudiate lo de fastAPI
+4) create la documentación modelo de una API
+5) subila a Github
+'''
 
 
