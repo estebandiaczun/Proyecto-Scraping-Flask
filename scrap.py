@@ -22,7 +22,7 @@ from selenium.webdriver.common.by import By
 
 
 #Declara de donde sale el path 
-PATH = "/ediaczun/escritorio/python3"
+PATH = "/ediaczun/escritorio/python3/Proyecto-Scraping-Flask"
 
 #declara el navegador
 driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -48,7 +48,7 @@ msj1 = ('Bitcoin: '+ BTC.text )
 msj2 = ('Ethereum: '+ ETH.text )
 msj3 = ('USDT: '+ USDT.text )
 msj4 = ('USDC: '+ USDC.text )
-msj5 = ('BNB: '+ BNB.tcext )
+msj5 = ('BNB: '+ BNB.text )
 
 tabla = [msj1 + msj2 + msj3 + msj4 + msj5]
 
